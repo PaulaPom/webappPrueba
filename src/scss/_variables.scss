@@ -1,0 +1,41 @@
+// Font families
+$main-font-family: 'helvetica', serif;
+$title-font-family: 'helvetica', serif;
+$body-font-family: $main-font-family;
+
+// Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 3px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+// Base colors
+$color-amazing-39: rgb(221, 112, 103);
+$color-grastur: rgb(226, 118, 118);
+$color-sidonia-orange: rgb(235, 112, 112);
+$color-less-is-less: #f8f5ee;
+$color-silver: #DBDBDB;
+
+// Main components colors
+$main-text-color:rgb(221, 112, 103) ;
+$links-color: rgb(138, 7, 7);
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+$form-input-border-color: grey;
+$form-input-outline-color: rgb(235, 112, 112);
+$form-button-background-color: rgb(138, 7, 7);
+$form-button-font-color: rgb(138, 7, 7);
+$form-error-background-color: rgb(138, 7, 7);
+$form-error-font-color: rgb(138, 7, 7);
